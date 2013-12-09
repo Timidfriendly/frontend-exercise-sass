@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--[if IE 7]>         <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<title>ServiceName sign-up application form - myCompany</title>
+<meta name="description" content="descriptive explanation of the pages contents">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap-datepicker-main.min.css">
+<style>body{background-color:green;}</style>
+
+</head>
+<body>
+<main role="main">
+	<h1 class="section-title">ServiceName sign-up application form</h1>
+	<div class="cta-wrapper">
+		<h2 class="section-cta"><strong class="cta-content">You are just <em>50 seconds</em> away from having free access to ServiceName XYZ</strong></h2>
+	</div>
+	
+	<form id="signup" class="form-horizontal" method="post" role="form"> 
+		<div class="control-group">
+			<label class="control-label" for="username">Choose your username</label>
+			<div class="controls">
+				<input type="text" id="username" name="username" placeholder="Choose an original name" title="Choose an original name" tabindex="1" required aria-required="true">
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="fullname">Full name</label>
+			<div class="controls">
+				<input type="text" id="fullname" name="fullname" placeholder="First name and Surname" title="First name and Surname" tabindex="2" required aria-required="true">
+			</div>
+		</div>    
+		<div class="control-group input-append">
+			<label class="control-label" for="birthdate">Date of birth</label>
+			<div class="controls datepicker date" data-date-format="dd-mm-yyyy" data-date="12-02-2012">
+				<input type="text" class="span2" id="birthdate" value="" placeholder="Optional field" tabindex="3" aria-label="The required date format is dd-mm-yyyy">
+				<span class="add-on btn" title="Use this button to add your date of birth" >Handy date picker</span>	
+						
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="email">Email address</label>
+			<div class="controls">
+				<input type="email" id="email" name="email" placeholder="Email" tabindex="4" required aria-required="true">
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="password">Password</label>
+			<div class="controls">
+				<input type="password" id="password" name="password" placeholder="••••••" tabindex="5" required aria-required="true">
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="passwordconfirm">Confirm password</label>
+			<div class="controls">
+				<input type="password" id="passwordconfirm" name="passwordconfirm" placeholder="••••••" tabindex="6" required aria-required="true">
+			</div>
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				 <label class="checkbox">
+					<input type="checkbox" tabindex="7"> Remember me
+				</label>
+				<button type="submit" class="btn btn-primary btn-large" tabindex="8">Create my account</button>
+			</div>
+		</div>
+		
+	</form>
+</main>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script> 
+<script src="js/validation-datepicker-main.min.js"></script>
+
+</body>
+</html>
+
+
+
